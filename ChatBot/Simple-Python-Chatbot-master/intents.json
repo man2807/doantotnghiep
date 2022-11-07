@@ -1,0 +1,49 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Chào", "Hello", "xin chào","Hey","Hola", "Hello", "Good day","Alo alo","Alo","Em ơi"],
+         "responses": ["Xin chào!", "Xin chào anh chị!", "Tôi có thể giúp gì cho anh chị?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time","Tạm biệt","Chào tạm biệt bạn","Được rồi ạ"],
+         "responses": ["Chào anh chị ạ!", "Tạm biệt. Chúc anh chị sức khỏe!", "Chào anh chị, hi vọng anh chị hài lòng ạ!"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me","Cảm ơn","cảm ơn đã giúp đỡ","Ok"],
+         "responses": ["Rất vui vì được giúp anh chị!", "Rất sẵn lòng!", "Dạ, đó là công việc của tôi mà."],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [".",",,",",",";"],
+         "responses": ["Xin lỗi, tôi không hiểu ý của anh", "Vui lòng nhập thêm thông tin để biết thêm chi tiết."],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["Bạn có thể giúp gì cho tôi?", "Bạn có thể làm gì?", "Làm được gì?", "Bạn làm được gì?", "Công dụng của bạn là gì?","Công dụng là gì?",
+                "Mục đích của bạn là gì?","Mục đích là gì?","Bạn có thể giúp gì cho tôi?","Bạn làm được gì?"],
+         "responses": ["Tôi là ChatBot tư vấn sức khỏe cũng như cung cấp thông tin về tình hình dịch Covid-19 của Việt Nam đến với bạn."],
+         "context": [""]
+        },
+        {"tag": "totalvn",
+         "patterns": ["Tình hình dịch ở việt nam thế nào?", "dịch ở việt nam", "tình hình dịch bênh việt nam?", "việt nam dịch bệnh?", "việt nam có bao nhiêu ca?","tổng ca bệnh việt nam",
+              "số ca ở việt nam","bao nhiêu người chết ở việt nam","Tổng số người chết","tổng người chết ở việt nam","số người mất ở việt nam","bao nhiêu người ra đi ở việt nam?",
+              "số người chết ở việt nam tổng cộng","bao nhiêu người được chữa khỏi","số người được chữa khỏi bệnh","tổng người khỏi bệnh","tổng người được chữa trị?","cứu được bao nhiêu người",
+              "số người được cứu?"],
+         "responses": ["Tình hình dịch Covid-19 ở Việt Nam: "],
+         "context": [""]
+        },
+        {"tag": "today",
+         "patterns": ["hôm nay việt nam thế nào?", "bựa ni có bao nhiêu ca?", "bựa ni mấy ca", "mấy ca vào ngày ni", "hôm nay việt nam có bao nhiêu trường hợp?","tình hình dịch bệnh hôm nay?",
+                     "số người bệnh hôm nay?","số người bị lây nhiễm hôm nay?","số người chết hôm nay?","số người mất hôm nay","số người được chữa khỏi hôm nay","số người khỏi hôm nay",
+              "số người chữa được hôm nay" ],
+         "responses": ["Hôm nay Việt Nam ghi nhận: "],
+         "context": [""]
+        },
+        {"tag": "tired",
+         "patterns": ["Tôi thấy mệt mỏi", "Tôi bị mệt", "nhọc", "Tôi thấy không được khỏe", "Tôi thấy không khỏe"],
+         "responses": ["Vâng ạ, anh chị có thể nói rõ tình hình của anh chị hiện tại không ạ?"],
+         "context": [""]
+        }
+   ]
+}
